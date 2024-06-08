@@ -1,0 +1,295 @@
+/* header */
+.backgroundimg{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8a_wd4e6W1m2-4MtQ_jjGcnfiEsWkx-22Eo8GnP_jw&s") ;
+   height: 350px;
+}
+header h1{
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    color: #331100;
+     background-color: aliceblue;
+    width: 150px;
+    display: inline;
+}
+.place{
+float: right;
+}
+header h2{
+    font-size: 45px;
+   background-color: aliceblue;
+   width: 590px;
+    text-align: center;
+    margin-left: 25%;
+    font-family: FreeMono, monospace;
+    color: #331100;
+}
+/*main */
+main h1{
+    font-family: Courier, monospace;
+    font-size: 45px;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color: white;
+}
+.design{
+ background-image: linear-gradient( to bottom right, #7d7591,#857a8f,#8c808c, #94858a,  #9c8a87,  #a38f85,  #ab9482) ;
+}
+main h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.photos-1 {
+    width: 550px;
+    height: 460px;
+    opacity: 0.5;
+    margin-left: 25%;
+    box-shadow: 5px 5px 5px 0 black ;
+}
+.photos-2{
+    width: 550px;
+    height: 460px;
+    opacity: 0.5;
+    margin-left: 25%;
+    box-shadow: 5px 5px 5px 0 black ;
+}
+/*наші полуги*/
+.designa:hover{
+    font-size: 25px;
+    border-bottom: 5px solid white;
+    transition: 1s ease-in;
+}
+  .design {
+            text-align: center;
+             margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        .designh{
+            padding: 25px;
+            font-size: 34px;
+            background-color: #ffffff;
+              font-family: Arial, sans-serif;
+        }
+        .designs {
+            position: relative;
+            color: white;
+        }
+        .designs img {
+ width: 100%;
+ height: auto;
+ max-width: 100%;
+        }
+        .design-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+           background-color: #101011;
+        }
+    .design-title :hover{
+        
+    }
+/* Розрахунок вартості дизайну інтерєту */
+h1{
+    font-family: Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+article{
+    background-color: #696969;
+}
+article p{
+    font-size: 25px;
+    text-align: center;
+}
+main a{
+    font-size: 20px;
+}
+.calculation{
+    display: flex;
+}
+/* Чому варто замовляти у нас? */
+.reasons{
+    background-color: #333333 ;
+    height: 800px;
+}
+.p{
+   font-size: 20px; 
+   color: white;
+   margin-top:15px ;
+}
+.reasonsh1{
+    color: white;
+}
+.reasonsimg{
+    width: 300px;
+    height: 250px;
+    float: right;
+    padding: 25px;
+    padding-top: 5px;
+
+}
+.reasonsimg-2{
+     width: 300px;
+    height: 250px;
+   float: left;
+    padding: 20px;
+}
+.reasons-2{
+    display: flexbox;
+}
+.text-1{
+    padding: 20px;
+     font-family: Arial, sans-serif;
+}
+.text-2{
+    float: right;
+    padding: 20px;
+     font-family: Arial, sans-serif;
+}
+  .number {
+            color: #ffaa00;
+            font-size: 24px;
+        }
+/* Головний дизайнер */
+.advice{
+    display: flex;
+     float: left;
+}
+.adviceimg{
+border-radius:50% ;
+width: 350px;
+    height: 350px;
+    border: 10px solid rgb(222, 178, 18);
+    padding: 9px;
+}
+span{
+    color: rgb(222, 178, 18);
+}
+/* Основна команда */
+.team{
+    display:flex;
+     margin: 15%;
+     margin-top: 0;
+     margin-bottom: 0;
+       
+}
+.teamimg{
+    border: 8px solid rgb(222, 178, 18) ;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+     margin-right: 10px;
+}
+.teamtext{
+    font-size: 25px;
+}
+/*Етапи роботи*/
+.stage{
+   background-color: #1b1b1d;
+}
+.stagep{
+    color: white;
+    font-size: 28px;
+}
+.stageh{
+    color: white;
+    font-size: 39px;
+     font-family: Arial, sans-serif;
+}
+        .stepss {
+               font-family: Arial, sans-serif;
+            justify-content: space-between;
+            color:#ffffff ;
+            padding: 10px 20px;
+            background-color: #1b1b1d ;
+        }
+        .step {
+          margin-top: 5px;
+            display: flex; 
+        }
+        .step-number{
+            width: 30px;
+            height: 30px;
+            background-color: #ffaa00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+        .step-text{
+            font-size: 28px;
+        }
+/*Відгуки*/
+aside{
+    background-color: #101011 ;
+}
+.reviewh{
+    color:#1b1b1d ;
+}
+        .review{
+     border-right: 10px dotted #ffaa00;
+     color: white;
+ }
+ .i{
+  color: #ffaa00;
+  margin-left: 50px;
+ }
+ .reviews{
+    font-size: 20px;
+      font-family: sans-serif;
+ }
+ .reviewimg{
+border-radius:50% ;
+width: 70px;
+    height: 70px;
+    border: 5px solid rgb(222, 178, 18);
+    padding:3px;
+}
+.reviews{
+    display: flex;
+}
+/*footer*/
+footer{
+    color: white;
+background-color: #0b0b0c;
+}
+footer h1{
+    font-size: 24px;
+    color: #0b0b0c;
+    background-color: white;
+    height: 25px;
+}
+footer p{
+    margin-left: 29%;
+    font-size: 25px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+}
+.icons{
+height: 15px;
+width: 15px;
+}
+table{
+    text-align: center;
+    font-size: 29px;
+}
+.contacts{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
